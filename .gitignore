@@ -14,5 +14,3 @@ _temp
 !protractor*.js
 !systemjs.config.js
 !wallaby.js
-
-.vscode
