@@ -1,8 +1,8 @@
 {
   "files.exclude": {
-    "app/*.html": true,
-    "app/*.css": true,
     "*.*": true,
+    "app/*.html": { "when": "$(basename).ts"},
+    "app/*.css": { "when": "$(basename).ts"},
     "**/*.js": { "when": "$(basename).ts"},
     "**/*.js.map": true
   },
